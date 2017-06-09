@@ -5,15 +5,63 @@ body {
   background-image: url("../images/whirlpool.jpg");
 }
 
-header {
-  background: #ffffff; 
+/*header {
+  background: #ffffff;
   background-color: white;
   text-align: right;
   border-bottom: : solid;
   border-width: 5px;
   border-color: #cccccc
 
+}*/
+
+.navigation {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
 }
+
+.masthead {
+  position: fixed;
+  width: 100%;
+  margin: 0 0 30px;
+  /*overflow: auto;*/
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+
+
 
 
 .navigationlinks {
@@ -35,7 +83,6 @@ header {
 
 h1 {
   color: white;
-  /*margin-left: 20px;*/
 }
 
 
@@ -47,6 +94,7 @@ h2 {
 .container {
   width: 1024px;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 
